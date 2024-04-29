@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <section>
+    <section className="section">
         <div className="container">
             <div className="row hero-row p-3 align-items-center justify-content-center" style={{backgroundColor: `rgb(5 0 255)`}}>
                 <div className="col-lg-5 order-lg-first order-last">

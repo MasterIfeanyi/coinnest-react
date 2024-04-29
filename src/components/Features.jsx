@@ -2,8 +2,32 @@ import OwlCarousel from 'react-owl-carousel';
 
 
 const Features = () => {
+
+  const options = {
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      700: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      }
+    },
+    nav: false,
+    dots: true
+  }
+
+
   return (
-    <OwlCarousel className='owl-theme' loop margin={10} nav>
+    <OwlCarousel className='owl-theme section' loop margin={10} autoplay {...options}>
 
       {/* 1 */}
       <div className="review item">

@@ -41,7 +41,5 @@ body {
 
 
 .section{
-  background-color: whitesmoke;
-  border: 1px solid blue;
-  flex: 1;
+  padding: 90px;
 }
