@@ -2,7 +2,7 @@
 
 const Download = () => {
   return (
-    <section>
+    <section className="section">
         <div className="container">
             <div className="row hero-row align-items-center justify-content-center" style={{backgroundColor: `rgb(5 0 255)`, padding: `120px 60px`}}>
                 <div className="col-lg-5">
