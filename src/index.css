@@ -43,3 +43,25 @@ body {
 .section{
   padding: 90px;
 }
+
+/* FAQ */
+
+.intro-header{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.accordion .accordion-button:focus{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+
+/* CTA */
+
+.btn.download-btn {
+  background-color: var(--white);
+  color: var(--brand);
+}
