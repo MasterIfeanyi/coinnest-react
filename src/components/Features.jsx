@@ -12,9 +12,12 @@ const Features = () => {
         items: 1,
       },
       600: {
-        items: 2,
+        items: 1,
       },
       700: {
+        items: 1,
+      },
+      800: {
         items: 2,
       },
       1000: {
@@ -27,14 +30,14 @@ const Features = () => {
 
 
   return (
-    <OwlCarousel className='owl-theme section' loop margin={10} autoplay {...options}>
+    <OwlCarousel className='owl-theme section' loop margin={20} autoplay {...options}>
 
       {/* 1 */}
       <div className="review item">
         <h3>24 hour up-time</h3>
         <p>The API will always be available with zero latency and little to no down-time</p>
         <div className="review-img">
-          <img src="./trust_image/shield.svg" alt=""/>
+          <img src="/trust.svg" alt=""/>
         </div>
       </div>
 
@@ -45,7 +48,7 @@ const Features = () => {
         {/* <p>we offer a wide range of crypto-currencies. </p>  */}
         <p>View the latest live exchange rates for all the crypto-currencies available worldwide.</p>
         <div className="review-img">
-          <img src="./trust_image/globe.svg" alt="" />
+          <img src="/globe.svg" alt="" />
         </div>
       </div>
 
@@ -55,7 +58,7 @@ const Features = () => {
         <h3>Great Documentation</h3>
         <p>To assist developers, we have curated a world-className documentation for the API</p>
         <div className="review-img">
-            <img src="./trust_image/trust.svg" alt="" className="trust" />
+          <img src="/shield.svg" alt="" className="trust" />
         </div>
       </div>
     </OwlCarousel>

@@ -10,7 +10,7 @@ const Download = () => {
                     <p>Available for iOS, Android, and desktop</p>
                     <button className="btn btn-primary download-btn">Download Now</button>
                 </div>
-                <div className="col-lg-6 offset-lg-1">
+                <div className="offset-lg-1 col-lg-5">
                     <div className="cta-img"></div>
                 </div>
             </div>

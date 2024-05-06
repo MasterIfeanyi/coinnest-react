@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import 'remixicon/fonts/remixicon.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

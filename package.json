@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3",
-    "react-toastify": "^10.0.5"
+    "react-toastify": "^10.0.5",
+    "remixicon": "^4.2.0"
   },
   "devDependencies": {
     "@rollup/plugin-inject": "^5.0.5",
