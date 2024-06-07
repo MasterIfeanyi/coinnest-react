@@ -1,4 +1,4 @@
-
+import {NavLink} from "react-router-dom"
 
 const Header = () => {
     return (
@@ -21,20 +21,20 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navmenu">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item me-4">
-                            <a href="#home" className="nav-link active">Home</a>
+                            <NavLink to="/" className="nav-link">Home</NavLink>
                         </li>
                         <li className="nav-item me-4">
-                            <a href="#markets" className="nav-link">Markets</a>
+                            <NavLink to="about" className="nav-link">About</NavLink>
                         </li>
                         <li className="nav-item me-4">
-                            <a href="#exchange" className="nav-link">Exchange</a>
+                            <NavLink to="markets" className="nav-link">Markets</NavLink>
                         </li>
-                        <li className="nav-item me-4">
+                        {/* <li className="nav-item me-4">
                             <a href="#news" className="nav-link">News</a>
                         </li>
                         <li className="nav-item me-4">
                             <a href="#about" className="nav-link">About</a>
-                        </li>
+                        </li> */}
                         <a href="" className="btn btn-primary ms-4">Language</a>
                     </ul>
                 </div>
